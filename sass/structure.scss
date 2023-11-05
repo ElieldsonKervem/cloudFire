@@ -1,0 +1,384 @@
+header,main,.posts{
+    margin: 0px 10rem;
+}
+main{
+  padding: 0.1rem 3rem;
+  text-align: center;
+}
+.container-hide{
+  display: none !important;
+}
+.top-hero-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+.bannerHero{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+.d-flex {
+    display: flex;
+    justify-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+.linkName{
+    font-size: 2.1rem;
+}
+.container {
+    width: 100%;
+    max-width: 124.6rem;
+    margin: 2rem auto;
+    padding: 0px 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $pinkMain;
+    align-items: center;
+  }
+  .mainNav{
+    display: flex;
+  }
+.header-logo{
+    font-size: 3rem;
+    line-height: 0rem;
+}
+  .navMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3 rem;
+  }
+  
+  .mainBtn, .secundaryBtn {
+    padding: 0.8rem;
+    color: #000000;
+    background: $pinkMain;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 1s ease;
+    margin-left: 2rem;
+    font-weight: 800;
+    text-transform: capitalize;
+  }
+  .menuList{
+    margin-left: 1rem;
+  }
+  
+  .secundaryBtn {
+    width: 22rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .mainBtn:hover {
+    background: $pinkSub;
+    transition: background 1s ease;
+  }
+  
+  .secundaryBtn:hover {
+    background: $pinkMain;
+  }
+  
+  .item-digital {
+    flex-grow: 1;
+    max-width: 38rem;
+  }
+  
+  .item-digital .icon {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.4rem;
+    font-size: 3.4rem;
+    color: $pinkMain;
+  }
+  
+  .post-card {
+    padding: 2.3rem 0rem;
+    background: rgba(101, 100, 100, 0.1);
+    border: 1px solid $pinkMain;
+    max-width: 60rem;
+  }
+  
+  .fa-regular {
+    color: $pinkMain;
+  }
+  
+  .card-tittle {
+    margin-bottom: 0.8rem;
+    color: $pinkMain;
+  }
+  
+  .post-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.4rem;
+    font-size: 4.4rem;
+    color: $pinkMain;
+  }
+  
+  .cards p {
+    color: #424242;
+  }
+  
+  .post-tag{
+    display: inline-block;
+    padding: 0.3rem 1.2rem;
+    background: rgba(255, 255,255,0.9);
+    color: $blackMain;
+    border-radius: 0.4rem;
+    margin-bottom: 4.5rem;
+  }
+  .icon-post-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.4rem;
+
+  }
+  
+  .post-icon {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  .card-p{
+    flex-grow: 1;
+    max-width: 25rem;
+  }
+
+
+  .cards {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.item-digital:hover{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.03);
+border-radius: 0.4rem;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+border: 1px solid rgba($pinkMain, 0.3);
+}
+.item-digital {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digital-card .container{
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.digital-card h2{
+  margin: 6rem;
+}
+
+.posts .container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0rem auto;
+  padding: 3rem;
+  border-bottom: none;
+  gap: 3rem;
+}
+
+.second-container p {
+  width: 45rem;
+}
+
+.posts-cards .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.posts-cards .container .post-card:first-child{
+  grid-column: span 2;
+}
+
+.mainCard .post-tag {
+  margin-left: 2rem;
+}
+
+.post-footer, .card-tittle, .card-p {
+    text-align: center;
+    padding: 0rem 0rem;
+}
+
+.post-footer .card-tittle .card-p {
+  text-align: center;
+  padding: 0rem 1rem;
+  max-width: none !important;
+
+}
+
+.posts-cards {
+  margin-bottom: 6rem;
+}
+
+.mainFooter {
+  background: $pinkMain;
+  padding: 2rem 0rem;
+  text-align: center;
+  color: #000000;
+}
+.card{
+  padding: 1rem;
+  text-align: center;
+}
+
+footer{
+  margin-top: 10rem;
+}
+
+.footer-nav nav ul li a {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+footer.mainFooter .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+ul.social-list {
+  display: flex;
+  gap: 4rem;
+}
+
+ul.social-list li a {
+  font-size: 2.4rem;
+}
+
+.footer-nav .mainNav .navMenu li a:hover {
+  color: black;
+}
+
+
+//monitores pequenos
+
+@media (max-width:1200px) {
+   
+}
+
+@media(max-width:1078px){
+  .mainNav{
+    display: none;
+  }
+  header, main, .posts {
+    margin: 0px 1rem;
+  }
+  .container{
+    border-bottom: none;
+  }
+  .container-hide{
+    display: block !important;
+    font-size: 2rem;
+    color: $pinkMain;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  .digital-card h2{
+    font-size: 1.9rem;
+  }
+  .second-container p {
+    width: 26rem;
+}
+.posts-cards .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.second-container p {
+  width: auto !important;
+}
+.posts .container{
+  padding: 0rem 3rem 3rem;
+}
+.digital-card h2 {
+  margin: 0.2rem;
+}
+.mainFooter .container {
+  margin: 0rem;
+  gap: 1rem;
+}
+footer {
+  margin-top: 0rem;
+}
+.footer-social {
+  margin-top: 1.5rem;
+}
+ul.social-list li a {
+  font-size: 1.4rem;
+}
+}
+
+@media(max-width: 768px){
+  .top-hero-card{
+    margin-top: 1rem;
+  }
+  .top-hero-card h1{
+    font-size: 2rem;
+  }
+  .top-hero-card p{
+    font-size: 1rem;
+  }
+  .secundaryBtn{
+     width: 18rem;
+  }
+  .bannerHero img{
+    display: none;
+  }
+  .digital-card h2 {
+    margin: 1rem;
+}
+  .top-hero-card{
+    margin-bottom: 0rem;
+  }
+  .cards{
+    display: block;
+  
+  }
+  .item-digital{
+    margin-bottom: 2rem;
+  }
+  .posts .container{
+    flex-direction: column;
+  }
+  .second-container p {
+    width: 23rem;
+  }
+  .posts-cards .container .post-card:first-child {
+    grid-column: span 1;
+  }
+  .posts-cards .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer.mainFooter .container {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    gap: 0rem;
+  }
+}
