@@ -6,9 +6,14 @@
         box-sizing: border-box;
         font-family: $heading-font;
         color: $whiteMain;
+        
+    }
+    html {
+        overflow-x: hidden;
     }
     body{
         background-color: $blackDark;
+        overflow-x: hidden;
     }
     ul{
         list-style: none;
